@@ -3,7 +3,8 @@
 <h1>Welcome to my test app</h1>
 
 <% if user_signed_in? %>
-You've successfully entered the content area
+Here's your free bufallo:
+<p><img src="http://i.imgur.com/BuODQwJ.png" width="100%">
 <% else %>
 <p><%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
 	<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
