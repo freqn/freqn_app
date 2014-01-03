@@ -26,3 +26,27 @@ $jumbotron-bg: 										white;
 .pic {
 	max-width: 100%;
 }
+
+.btn-primary{
+	box-shadow: 2px 2px 2px #BDBDBD;
+	-moz-box-shadow: 2px 2px 2px #BDBDBD;
+	-webkit-box-shadow: 2px 2px 2px #BDBDBD;
+}
+
+.cancel_acct {
+	background: #FF8000;
+	border: none;
+	box-shadow: 2px 2px 2px #BDBDBD;
+	-moz-box-shadow: 2px 2px 2px #BDBDBD;
+	-webkit-box-shadow: 2px 2px 2px #BDBDBD;
+}
+
+.cancel_acct:hover {
+	background: #DF7401;
+}
+
+.cancel_acct:click, .btn-primary:click {
+	box-shadow: 1px 1px 2px #BDBDBD;
+	-moz-box-shadow: 1px 1px 2px #BDBDBD;
+	-webkit-box-shadow: 1px 1px 2px #BDBDBD;
+}
