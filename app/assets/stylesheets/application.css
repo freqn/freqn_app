@@ -12,3 +12,6 @@
  *= require 'masonry/transitions'
  *= require_tree .
  */
+body {
+	background-color: orange;
+}
