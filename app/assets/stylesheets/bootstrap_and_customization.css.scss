@@ -6,13 +6,14 @@ $navbar-height: 									45px;
 $navbar-default-bg:								#1C1C1C;
 $navbar-default-brand-color:			white;
 $brand-primary: 									#c0392b;
-$jumbotron-bg: 										#ecf0f1;
+//$jumbotron-bg: 										blue;
 
 @import 'bootstrap';
 
-body {
-	background: url("../assets/pbbackground.png") no-repeat center center fixed;
+.glyphicon {
+	color: white;
 }
+
 
 .center {
 	text-align: center;
@@ -32,9 +33,9 @@ body {
 }
 
 .btn-primary{
-	box-shadow: 2px 2px 2px #BDBDBD;
-	-moz-box-shadow: 2px 2px 2px #BDBDBD;
-	-webkit-box-shadow: 2px 2px 2px #BDBDBD;
+	box-shadow: 2px 2px 2px #1C1C1C;
+	-moz-box-shadow: 2px 2px 2px #1C1C1C;
+	-webkit-box-shadow: 2px 2px 2px #1C1C1C;
 }
 
 .cancel_acct {
@@ -53,4 +54,27 @@ body {
 	box-shadow: 1px 1px 2px #BDBDBD;
 	-moz-box-shadow: 1px 1px 2px #BDBDBD;
 	-webkit-box-shadow: 1px 1px 2px #BDBDBD;
+}
+
+.jumbotron {
+	background: url("../assets/pbbackground.png");
+	background-color: #424242;
+	color: white;
+	border: 2px solid black;
+}
+
+.jumbtron h1 {
+	padding: 0;
+	padding-bottom: 5px;
+}
+.jtext {
+	background-color: black;
+	margin: 0 auto;
+	width: 320px;
+	height: 110px;
+	padding: 0 2px 0 1px;
+	border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border: 2px solid white;
 }
