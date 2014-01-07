@@ -14,7 +14,7 @@ $brand-primary: 									#c0392b;
 	color: white;
 }
 
-
+.navbar li {display: inline-block;}
 .center {
 	text-align: center;
 	width: 100%;
@@ -77,4 +77,14 @@ $brand-primary: 									#c0392b;
 	-webkit-border-radius: 14px;
 	-moz-border-radius: 14px;
 	border: 2px solid white;
+}
+
+.about {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+.about h1{
+	padding-bottom: 15px;
 }
