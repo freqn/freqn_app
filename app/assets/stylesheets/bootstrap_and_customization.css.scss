@@ -5,7 +5,7 @@ $font-family-sans-serif: 					'Lato', 'Helvetica Neue', Helvetica, Arial, sans-s
 $navbar-height: 									45px;
 $navbar-default-bg:								#1C1C1C;
 $navbar-default-brand-color:			white;
-$brand-primary: 									#c0392b;
+$brand-primary: 									#FF8000;
 //$jumbotron-bg: 										blue;
 
 @import 'bootstrap';
@@ -33,10 +33,14 @@ $brand-primary: 									#c0392b;
 }
 
 .btn-primary{
-	box-shadow: 2px 2px 2px #1C1C1C;
-	-moz-box-shadow: 2px 2px 2px #1C1C1C;
-	-webkit-box-shadow: 2px 2px 2px #1C1C1C;
+	box-shadow: 2px 2px 2px #BDBDBD;
+	-moz-box-shadow: 2px 2px 2px #BDBDBD;
+	-webkit-box-shadow: 2px 2px 2px #BDBDBD;
+	color: white;
+	background-color: #01DF01;
 }
+
+
 
 .cancel_acct {
 	background: #FF8000;
@@ -88,3 +92,29 @@ $brand-primary: 									#c0392b;
 .about h1{
 	padding-bottom: 15px;
 }
+
+.btn-default{
+	background-color: #01DF01;
+	border: none;
+	color: white;
+}
+
+.btn-secondary{
+	background-color: #FF8000;
+	border: none;
+	color: white;
+}
+
+.btn-secondary:hover{
+	background-color: #DF7401;
+	color: white;
+}
+
+.btn-default:hover{
+	background-color: #04B431;
+	color: white;
+}
+
+.btn {
+	border: none;
+ }
