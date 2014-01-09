@@ -9,6 +9,27 @@
 .box {
 	margin: 5px;
 	width: 200px;
+	padding: 10px;
+	overflow: hidden;
+	background: black;
+	color: gray;
+	border: none;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.box img {
+	width: auto;
+	max-height: 178px;
+	border: 2px solid #1C1C1C;
+	border-radius: 360px;
+	-moz-border-radius: 360px;
+	-webkit-border-radius: 360px;	
+}
+
+.panel-body p:first-child {
+	color: white;
 }
 
 .box img{
