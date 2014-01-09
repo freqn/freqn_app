@@ -4,12 +4,13 @@
 
 #pins {
 	margin:0 auto;
+	width: 100%;
 }
 
 .box {
-	margin: 5px;
-	width: 200px;
-	padding: 10px;
+	margin: 2px;
+	width: 219px;
+	padding: 10 5 10 5px;
 	overflow: hidden;
 	background: black;
 	color: gray;
@@ -21,8 +22,9 @@
 
 .box img {
 	width: auto;
-	max-height: 178px;
+	max-height: 217px;
 	border: 2px solid #1C1C1C;
+	padding: 5px;
 	border-radius: 360px;
 	-moz-border-radius: 360px;
 	-webkit-border-radius: 360px;	
@@ -33,5 +35,9 @@
 }
 
 .box img{
+	width: 100%;
+}
+
+.panel-heading img {
 	width: 100%;
 }
