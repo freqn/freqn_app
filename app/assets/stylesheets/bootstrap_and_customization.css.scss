@@ -74,17 +74,18 @@ $brand-primary: 									#FF8000;
 }
 
 .jtext h1 {
-	padding: 0;
-	padding-bottom: 5px;
-	font-size: 3em;
+	;
+	//padding-bottom: 5px;
+	font-size: 3.5vw;
+	
 }
 .jtext {
 	background-color: black;
 	margin: 0 auto;
 	//width: 340px;
-	max-width: 340px;
-	height: 110px;
-	padding: 0 2px 0 1px;
+	max-width: 35%;
+	max-height: 115px;
+	//padding: 0 2px 0 1px;
 	border-radius: 14px;
 	-webkit-border-radius: 14px;
 	-moz-border-radius: 14px;
