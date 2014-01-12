@@ -74,18 +74,18 @@ $brand-primary: 									#FF8000;
 }
 
 .jtext h1 {
-	;
 	//padding-bottom: 5px;
 	font-size: 2em;
+	margin: 12px  auto;
+	text-align: center;
 }
 
 .jtext {
 	background-color: black;
 	margin: 0 auto;
-	//width: 340px;
 	width: 220px;
-	max-height: 115px;
-	//padding: 0 2px 0 1px;
+	max-height: 80px;
+	padding: 0 5px 0 5px;
 	border-radius: 14px;
 	-webkit-border-radius: 14px;
 	-moz-border-radius: 14px;
@@ -103,7 +103,7 @@ $brand-primary: 									#FF8000;
 }
 
 .btn-default{
-	background-color: #01DF01;
+	background-color: #01C401;
 	border: none;
 	width: 90px;
 	color: white;
