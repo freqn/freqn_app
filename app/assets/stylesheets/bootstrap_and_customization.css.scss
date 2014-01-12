@@ -94,8 +94,13 @@ $brand-primary: 									#FF8000;
 
 .about {
 	margin: 0 auto;
-	width: 80%;
+	width: 60%;
+	font-size: 1.5em;
 	text-align: center;
+}
+
+.about p span{
+	font-weight: bold;
 }
 
 .about h1{
