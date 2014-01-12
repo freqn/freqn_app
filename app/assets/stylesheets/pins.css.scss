@@ -10,7 +10,7 @@
 .box {
 	margin: 2px;
 	width: 219px;
-	padding: 10 5 10 5px;
+	padding: 10px;
 	overflow: hidden;
 	background: black;
 	color: gray;
@@ -22,9 +22,8 @@
 
 .box img {
 	width: auto;
-	max-height: 217px;
+	max-height: 205px;
 	border: 2px solid #1C1C1C;
-	padding: 5px;
 	border-radius: 360px;
 	-moz-border-radius: 360px;
 	-webkit-border-radius: 360px;	
